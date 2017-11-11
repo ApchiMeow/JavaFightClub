@@ -1,5 +1,5 @@
 package Chapter8;
-public class Time2Test 
+public class Time2Test
 {
    public static void main(String[] args)
    {
@@ -20,20 +20,20 @@ public class Time2Test
       try
       {
          Time2 t6 = new Time2(27, 74, 99); // invalid values
-      } 
+      }
       catch (IllegalArgumentException e)
       {
          System.out.printf("%nException while initializing t6: %s%n",
             e.getMessage());
-      } 
-   } 
+      }
+   }
 
    // displays a Time2 object in 24-hour and 12-hour formats
    private static void displayTime(String header, Time2 t)
    {
       System.out.printf("%s%n   %s%n   %s%n",
          header, t.toUniversalString(), t.toString());
-   } 
+   }
 } // end class Time2Test
 
 

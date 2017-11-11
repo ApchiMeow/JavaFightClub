@@ -29,7 +29,7 @@ public class Time87 {
     }
 
     // Time2 constructor: another Time2 object supplied
-    public Time87(Time2 time) {
+    public Time87(Time87 time) {
         // invoke constructor with three arguments
         this(time.getHour(), time.getMinute(), time.getSecond());
     }
