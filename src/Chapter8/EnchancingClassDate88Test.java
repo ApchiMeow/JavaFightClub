@@ -8,10 +8,8 @@ public class EnchancingClassDate88Test {
         int finishMonth = 2;
 
         while(!(date1.getYear() == finishYear && date1.getMonth() == finishMonth)) {
-
             date1.nextDay();
             System.out.printf("%s\n", date1);
         }
-
     }
 }
