@@ -18,7 +18,7 @@ public class SeparatingTheDigitsInAnInteger230 {
             counter/=10;
             System.out.printf("%d   ", digit);
         }
-
+        input.close();
 //        int temp = 0;    // страшный, непонятный, но тоже рабочий код
 //        for(int i = counter; i > 0; i /= 10){
 //            digit = (num - (num % i))/i - temp;

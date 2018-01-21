@@ -16,5 +16,6 @@ public class Arithmetic215 {
         System.out.printf("Произведение %d и %d = %d%n", num1, num2, product);
         System.out.printf("Разность %d и %d = %d%n", num1, num2, difference);
         System.out.printf("Деление %d и %d = %f", num1, num2, division);
+        input.close();
     }
 }

@@ -22,5 +22,6 @@ public class ArithmeticSmallestAndLargest217 {
         System.out.printf("Произведение: %d%n", product);
         System.out.printf("Найменьшее: %d%n", small);
         System.out.printf("Найбольшее: %d%n", big);
+        input.close();
     }
 }

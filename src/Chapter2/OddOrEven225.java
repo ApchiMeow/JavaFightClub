@@ -11,5 +11,6 @@ public class OddOrEven225 {
         } else {
             System.out.printf("Число %d - нечётное", num1);
         }
+        input.close();
     }
 }

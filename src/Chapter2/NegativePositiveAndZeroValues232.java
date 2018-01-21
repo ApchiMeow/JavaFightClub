@@ -19,5 +19,6 @@ public class NegativePositiveAndZeroValues232 {
             }
         }
         System.out.printf("Положительных: %d%nОтрицательных: %d%nНулей: %d", pos, neg, zer);
+        input.close();
     }
 }

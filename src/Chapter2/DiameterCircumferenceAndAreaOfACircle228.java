@@ -9,5 +9,6 @@ public class DiameterCircumferenceAndAreaOfACircle228 {
         System.out.printf("Диаметр окружности: %d%n", 2*r);
         System.out.printf("Длина окружности: %f%n", 2*r*Math.PI);
         System.out.printf("Площадь окружности: %f%n", r*r*Math.PI);
+        input.close();
     }
 }

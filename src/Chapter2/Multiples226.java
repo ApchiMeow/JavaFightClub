@@ -13,5 +13,6 @@ public class Multiples226 {
         } else {
             System.out.printf("Число %d не кратно %d", num1 , num2);
         }
+        input.close();
     }
 }
