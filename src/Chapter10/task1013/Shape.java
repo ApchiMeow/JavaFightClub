@@ -25,7 +25,6 @@ public abstract class Shape {
 	public void setLength(double length) {
 		this.length = length;
 	}
-
 	public double getWidth() {
 		return width;
 	}

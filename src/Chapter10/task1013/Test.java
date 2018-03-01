@@ -18,11 +18,13 @@ public class Test {
 		figure[5] = sphere;
 
 		for (Shape currentFigure : figure) {
-			if (currentFigure instanceof TwoDimensionalShape) {
-				System.out.println(currentFigure.toString());
-			} else if (currentFigure instanceof ThreeDimensionalShape) {
-				System.out.println(currentFigure.toString());
-			}
+//			if (currentFigure instanceof TwoDimensionalShape) {
+//				System.out.println(currentFigure.toString());
+//			} else if (currentFigure instanceof ThreeDimensionalShape) {
+//				System.out.println(currentFigure.toString());
+//			}
+			// не помню, чего я хотел добиться с instanceof...
+			System.out.println(currentFigure.toString());
 		}
 	}
 }
