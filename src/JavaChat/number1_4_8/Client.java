@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Client {
-
+// c
     private Connection connection;
     private volatile boolean clientConnected = false;
 
